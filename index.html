@@ -4,9 +4,70 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="style.css" />
     <script defer src="script.js"></script>
     <title>Vertical Slider</title>
   </head>
-  <body></body>
+  <body>
+    <div class="slider-container">
+      <div class="left-slide">
+        <div style="background-color: #ff1919">
+          <h1>Flower</h1>
+          <p>all in red</p>
+        </div>
+        <div style="background-color: #89cfef">
+          <h1>Ocean</h1>
+          <p>all in blue</p>
+        </div>
+        <div style="background-color: #252e33">
+          <h1>Dark Forest</h1>
+          <p>all in dark</p>
+        </div>
+        <div style="background-color: #ffa500">
+          <h1>Fire</h1>
+          <p>all in orange</p>
+        </div>
+      </div>
+
+      <div class="right-slide">
+        <div
+          style="
+            background-image: url(https://images.unsplash.com/photo-1543005472-1b1d37fa4eae?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
+          "
+        ></div>
+        <div
+          style="
+            background-image: url(https://images.unsplash.com/photo-1516410529446-2c777cb7366d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
+          "
+        ></div>
+        <div
+          style="
+            background-image: url(https://images.unsplash.com/photo-1548032885-b5e38734688a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=656&q=80);
+          "
+        ></div>
+        <div
+          style="
+            background-image: url(https://images.unsplash.com/photo-1524463605186-e47d03ea3c6f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
+          "
+        ></div>
+      </div>
+
+      <div class="action-buttons">
+        <button class="down-button">
+          <i class="fas fa-arrow-down"></i>
+        </button>
+
+        <button class="up-button">
+          <i class="fas fa-arrow-up"></i>
+        </button>
+      </div>
+    </div>
+  </body>
 </html>
